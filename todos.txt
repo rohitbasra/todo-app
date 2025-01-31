@@ -1,6 +1,6 @@
 Eat
 Sleep
-Conquer
-Repeat
+GymRepeat
+Work
 Breathe
-Complete your work
+
