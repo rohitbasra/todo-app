@@ -1,4 +1,4 @@
-def get_todos(filepath = "../files/todos.txt"):
+def get_todos(filepath = "todos.txt"):
     """
     Read the text file and returns the list of to-do items
     :param filepath:
@@ -8,7 +8,7 @@ def get_todos(filepath = "../files/todos.txt"):
         todos_local = file_local.readlines()
         return todos_local
 
-def write_todos(todos_arg , filepath = "../files/todos.txt"):
+def write_todos(todos_arg , filepath = "todos.txt"):
     """
     Writes the to-do item in the text file.
     :param todos_arg:
